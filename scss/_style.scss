@@ -58,7 +58,7 @@ a {
 /* styles */
 
 body{
-	background: #F1F1F1;
+	background: $BGcolor;
 }
 
 .container{
@@ -74,13 +74,13 @@ body{
 	top: 0;
 	margin-bottom: 42px;
 	z-index: 5;
-	background-color: #F1F1F1;
+	background-color: $BGcolor;
 
     li{
         display: inline-block;
         vertical-align: middle;
         margin-right: 35px;
-        color: #000;
+        color: $color3;
         font-family: 'Roboto', sans-serif;
         font-size: 11px;
         font-style: normal;
@@ -108,7 +108,7 @@ body{
         font-weight: 700;
         font-size: 24px;
         line-height: 28px;
-        color: #000000;
+        color: $color3;
         margin-bottom: 27px;
     }
 
@@ -116,7 +116,7 @@ body{
         width: 362px;
         height: 400px;
         display: inline-block;
-        background-color: #FFFFFF;
+        background-color: $color1;
         border-radius: 5px;
         vertical-align: top;
     }
@@ -142,7 +142,7 @@ body{
         font-weight: 700;
         font-size: 20px;
         line-height: 23px;
-        color: #FFFFFF;
+        color: $color1;
     }
 
     p {
@@ -151,7 +151,7 @@ body{
         font-weight: 400;
         font-size: 10px;
         line-height: 30px;
-        color: #8A8787;
+        color: $color2;
         width: 238px;
         margin-bottom: 12px;
         margin-left: 37px;
@@ -171,7 +171,7 @@ body{
         font-weight: 400;
         font-size: 10px;
         line-height: 12px;
-        color: #8A8787;
+        color: $color2;
         vertical-align: middle;
     }
 }
@@ -187,7 +187,7 @@ body{
         font-style: normal;
         font-weight: 800;
         line-height: normal;
-        color: #000;
+        color: $color3;
         margin-bottom: 30px;
     }
     
@@ -244,7 +244,7 @@ footer {
     }
 
     h4{
-        color: #FFF;
+        color: $color1;
         font-family: 'Roboto', sans-serif;
         font-size: 15px;
         font-style: normal;

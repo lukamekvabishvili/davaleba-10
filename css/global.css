@@ -173,7 +173,7 @@ body {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  color: #000000;
+  color: #000;
   margin-bottom: 27px;
 }
 .s-1 .card1, .s-1 .card2, .s-1 .card3 {
@@ -290,7 +290,7 @@ footer .footerdiv {
   vertical-align: top;
 }
 footer h4 {
-  color: #FFF;
+  color: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-style: normal;
